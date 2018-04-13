@@ -1,0 +1,152 @@
+Hierarchical Clustering
+
+	Transformation of Data
+	
+	VAT ordering
+	find the two furthest points
+	randomly pick one of them
+	keep looking for points which is colse to selected point
+	they are now a set
+	find set closest to the sets and merge
+	look at the next points nearest to the set
+	
+		Pseudo Code
+		
+	>VAT algorithm is not efficient for data with certain structures
+	Hierarchical Clustering
+		Different way of visualisation
+		See the different scale/hierarchy
+		Give datapoints without number of clusters
+		Give visualisations called dendograms
+		
+		Two main types
+			Agglomerative
+				Start with the points as individual clusters
+				Each step, merge the closest pair until k clusters 
+				until one single cluster
+				
+			Divisive
+				Start with one, all clustered
+				split cluster at each step until cluster just has one point (k clusters)
+				
+			>use similarity or distance matrix (proximity)
+			
+		
+		Proximity Matrix
+			The distance between the dots 
+			p1 and p1 == 1
+			
+			finding the clusters to merge
+				find the closest two points in each cluster 
+				state that is the minimum distance of the two clusters
+				
+				opposite as maximum distance
+				
+				similarity can be done either
+					find two centroids and take distance between
+					
+					find average of all distances between points
+					
+			
+		Inter-cluster similarity 
+		
+			Min single linkage
+				closer to 1, closer to other cluster
+				
+				finding all the minimum distance between all the clusters and
+				use that instead (shortest path sorta)
+				
+				>if data is noisy and has outliers, MIN cannot identify clusters
+				
+				
+				
+				
+		If data is too large
+			hierarchial clustering would not be scalable
+				no need to specify k
+				cannot reverse clustering 
+			k-min is scalable
+		
+	
+	Dimension reduction
+		part of data wrangling
+		used for regression and clustering
+		
+		helps visualise the data much better
+		
+		With increase in dimension
+			harder to visualise
+			many techniques would not work well
+			
+		points gets very close together in N dimensional space
+		
+		
+		Points which are close/far apart prior to transformation would still
+		need to be close/far apart after transformation
+		
+		nearest neighbours need to be preserved
+		
+		Transformation of data dimensions
+			Avoid choosing values which are highly correlated (functions of one another)
+			
+			Avoid choosing datas which little variety
+		
+			
+			Principal components analysis
+				defining data the best
+				new feature that could describe the data well
+				
+				projecting initial data points onto a lower dimension
+				
+				reduced components end up being a function of original dimensions (features)
+				
+				
+				
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+
+
+
+	2-gram string comparision
+		break string down to two characters each and compare 
+		list of two characters(sub-strings)
+			Does not matter the order of the substring
+		>use formula
+		
+		can be q-grams 
+			any number appropriate for the data set
+
+
+
+
+
+
+
+
+
+
+
+
+

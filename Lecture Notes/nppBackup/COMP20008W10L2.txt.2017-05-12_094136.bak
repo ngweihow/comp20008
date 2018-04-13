@@ -1,0 +1,52 @@
+Block Chain
+
+	Block Chain
+		Distributed computing
+		No central point of control
+			No administration
+			Less expensive
+			Faster control over records
+		complex peer network
+		
+		famous for bitcoin currency
+		
+		each computer in the network has a copy of the ledger (distributed)
+			record all the events
+			
+		Block
+			Header
+			ID - obtained from hashing the header
+			Record of the ID of the parent
+			Timestamp of block's creation
+			
+		Changing a block
+			Child nodes would need to change their pointers 
+			Headers changed would change address
+			Everything following would change
+		
+		Broadcast information
+			Start from one node to its neighbours and spreads out
+			Spread recursively
+			
+		
+		>>>Not consistent in practice
+			Blocks created simultaneously
+			Fake malicious blocks
+			
+		Public-key Cryptography
+		Created
+			Public-key
+				Access to public
+			Private-key
+				Public cannot read
+				
+		Encryption
+			Public-key used to encrypt
+			Only Holder of Private-key can decrypt the message
+			
+			Private-key used to encrypt
+			Only Holder of Public-key can decrypt the message
+			
+			>Can be used to proves digital signatures
+			
+			>Hashing information and store in block chain for privacy

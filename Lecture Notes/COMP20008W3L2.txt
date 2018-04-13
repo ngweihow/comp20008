@@ -1,0 +1,55 @@
+Similarity Measures
+	Item-based Method
+		Search for similarity between items
+		Computation can be done offline
+		More stable than user-user similarity
+		
+		Find similar items to the one that has a missing rating
+		
+		
+	User-user/ item-item similarity
+	
+	
+	
+	Matrix-Based Techniques
+		Many matrices can be factorised into two different matrices
+		R =est UV
+		R is m*n, U is m*k and V is k*n
+		k is the number of latent factors
+		increasing k would increase accuracy but only up to a certain level
+			slows down the computation
+		
+		Intuitive process
+			Come up with an initial guess for u and v
+			Find a product of u and v and see how far it deviates from R
+			Move towards R with better guesses
+			
+			
+			
+			
+Visualisation and Data Clustering
+	
+	Iris Flower Data Sets
+		Measure flowers' sepal width, petal width and length
+		
+		
+	Scatter plots
+		Different colours for different species/types comparing
+		Do a comparision of combinations of features
+		
+	Heat maps
+		Plot the data matrix
+		Shows intensity of clusters
+		Do normalisation before plotting heat maps
+			Mean of 0 and standard deviation of 1
+			
+		Attribute is important for visualisation
+		
+		
+	Parallel Coordinates
+		Plot feature values of high-dimensional data
+		
+		Number of features = number of parallel axis
+		
+		Different ordering of features can help with visualisation
+			Dont want the graph to be too clustered

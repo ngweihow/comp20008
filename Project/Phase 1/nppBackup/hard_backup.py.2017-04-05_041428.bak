@@ -1,0 +1,89 @@
+
+#PART 1.1 =============================================================
+#Libraries
+import pandas as pd
+import numpy as np
+
+#reading the csv files and giving them handles
+tripsJan = pd.read_csv('raw-january.csv')
+tripsJun = pd.read_csv('raw-june.csv')
+
+#length of Jan and Jun csv (Number of rows)
+janlen = len(tripsJan['pickup_datetime'])
+junlen = len(tripsJun['pickup_datetime'])
+
+#Turning the strings into datetime format
+pickupJan = pd.to_datetime((tripsJan['pickup_datetime']), format = '%d/%m/%y %H:%M')
+pickupJun = pd.to_datetime((tripsJun['pickup_datetime']), format = '%d/%m/%y %H:%M')
+
+dropoffJan = pd.to_datetime((tripsJan['dropoff_datetime']), format = '%d/%m/%y %H:%M')
+dropoffJun = pd.to_datetime((tripsJun['dropoff_datetime']), format = '%d/%m/%y %H:%M')
+
+#Calculating the duration for Jan and Jun
+durJan = dropoffJan - pickupJan
+durJan = durJan/ np.timedelta64(60,'s')
+durJan = pd.Series(durJan)
+
+durJun = dropoffJun - pickupJun
+durJun = durJun/ np.timedelta64(60,'s')
+durJun = pd.Series(durJun)
+
+#Creating the Data Frame for Jan
+dataJan = pd.DataFrame(pd.Series(list(range(janlen))), columns = ['Index'])
+dataJan['Duration'] = durJan
+dataJan['Trip_distance'] = pd.Series(tripsJan.ix[:,'trip_distance'])
+dataJan['Passenger_count'] = pd.Series(tripsJan.ix[:,'passenger_count'])
+dataJan['Payment_amount'] = pd.Series(tripsJan.ix[:,'payment_amount'])
+
+#Creating the Data Frame for Jun
+dataJun = pd.DataFrame(pd.Series(list(range(junlen))), columns = ['Index'])
+dataJun['Duration'] = durJun
+dataJun['Trip_distance'] = pd.Series(tripsJun.ix[:,'trip_distance'])
+dataJun['Passenger_count'] = pd.Series(tripsJun.ix[:,'passenger_count'])
+dataJun['Payment_amount'] = pd.Series(tripsJun.ix[:,'payment_amount'])
+
+print(dataJan)
+print(dataJun)
+
+#PART 1.2======================================================================
+#Answer to 1.2
+
+#averages for distances
+meandistJan = dataJan['Trip_distance'].mean()
+meandistJun = dataJun['Trip_distance'].mean()
+
+#averages for durations
+meandurJan = dataJan['Duration'].mean()
+meandurJun = dataJun['Duration'].mean()
+
+#averages for passenger count
+meanpsgcntJan = dataJan['Passenger_count'].mean()
+meanpsgcntJun = dataJun['Passenger_count'].mean()
+
+#printing average trip distances
+print("****************************** Mean Trip Distance ******************************")
+print("\n")
+print("January:", meandistJan)
+print("June:", meandistJun)
+print("\n")
+print("********************************************************************************")
+print("\n")      
+
+#printing average trip durations
+print("****************************** Mean Trip Duration ******************************")
+print("\n")
+print("January:", meandurJan)
+print("June:", meandurJun)
+print("\n")
+print("********************************************************************************")
+print("\n")     
+
+#printing average passenger counts
+print("****************************** Mean Passenger Count ******************************")
+print("\n")
+print("January:", meanpsgcntJan)
+print("June:", meanpsgcntJun)
+print("\n")
+print("**********************************************************************************")
+print("\n")     
+

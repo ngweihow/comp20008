@@ -1,0 +1,96 @@
+Classifying Methodologies Cont.
+
+	Best split
+		Calculate the entropy of the children using the formula
+		
+		Measuring the diversity of the nodes
+		
+		Split unity
+			Information Gain
+			Entropy started minus Entropy gained
+			
+			Weighted Average
+			
+			>Formula
+				Entropy(root) - Entropy(root|split)
+				
+			Purity of children
+			
+			>>>Information Gain value of 1 =  best split
+				Purest and no ambiguity
+		
+
+			
+	Decision Tree
+	
+		Creating Decision Tree
+			Choosing attribute to split by
+			Calculate the information gain for each possibility and find the highest one	
+			Goes down recursively
+		
+		Advantage
+			Easy to use, walk down tree
+			Easy to construct
+			Fast for decisions
+		Disadvantage
+			Greedy construction strategy
+				A lot of if rules
+				Might let a lot of exceptions go through
+				
+			Maybe behave strangely
+			Look at everything in training data set
+
+
+		Training and Testing
+			Building Tree using the training set
+			
+		Performance Evaluation
+			Four possibilities - construct table
+			Actual Class 
+			Predicted Class
+			
+			Accuracy can be calculated
+			
+			Limitation of accuracy
+				If model predicts everything to be near 0 or 100%
+				might not be accurate in real scenario
+				
+	
+	
+	K- nearest neighbour
+		Looking at the test record and see which is the closest ones in training data
+		
+		>Predicting a single data set from nearest neighbour
+		
+		Definition of nearest neigbour
+			look at most neighbour
+			look at the next one recursively until it reaches odd number
+			
+			deduce the test data from the majority of nearest neighbours
+			
+			Compute distance
+				>Use the euclidean distance formula
+				
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

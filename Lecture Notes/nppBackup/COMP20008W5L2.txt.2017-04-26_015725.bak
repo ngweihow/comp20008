@@ -1,0 +1,52 @@
+Assessing Correlations
+	
+	>correlations can be visually identified in scatter plots
+		fitting lines through scatter plots
+		
+	Used to anticipate scenarios if correlations are known
+	
+	>>>Correlations does not necessarily imply causality
+	
+	looking at change of variables
+	
+	
+	look at mass correlations through multiple plots and deduce clusters which behaves similarity
+	
+	if unknown data correlates with known one, function and details can be deduced
+		predictions can be made
+		
+	
+	
+	
+	Euclidean distance
+		Compute the euclidean distance between two vectors to work out correlation 
+		similarity between two data groups, far apart the lines/rows are
+		if distance is LOW, similarity is HIGH
+		
+		
+		>Does not give a clear intuition about how well variables are correlated
+			scales of different measures might not align 
+			scales similar would give bias results
+			no negative correlation picked up
+			
+			can be corrected with scaling/normalisation
+			
+		
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+Regular Expression
+	Used for pattern searches
+	
+	'.' matches any character in the text
+			'...' would be any 3 consecutive characters in the text	
+			
+	'^' matches the start of the string
+	
+	'$' matches the end of the string
+	
+	'*' zero or more repetitions
+			highlights the repetitions of the character before the '*'
+			includes the first appearance of it 
+	
+	'+' one or more repetitions 
+			same as '*' except it excludes the zero repetition
+	
+	'|' or operator 
+		searches for z(x|y) z plus x or y
+	
+	'[a-z]' searches from ascii character to another ascii character
+			different ranges do not need to have spaces between them
+				eg. regular inputs '[a-zA-Z0-9]'
+				anything else in the range bracket to be included anywhere
+				

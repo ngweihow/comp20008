@@ -1,0 +1,88 @@
+Outliers in Data	
+	Use gaussian plots
+	Data usually come from normal distribution
+	
+	1d or 2d plots are better
+	3d plots might be unclear
+	
+	
+	1d data
+		Boxplots
+		Histograms
+		Statistical Tests
+		
+	2d data
+		Scatter plot and eyeball
+		
+		
+		
+		
+		
+		
+Missing Data
+	
+	Fill in missing data using recommendation
+	
+	Recommender System
+		Based on past data
+		Each user has a profile
+			Explicit Info - Give score
+			Implicit Info - Time spent on viewing item
+			
+			
+		Collaborative Filter
+			Look at users' collective behaviour
+			Predict missing values of user using past information
+			Finding the rating between given user and item
+			
+			User based methods
+				Identify similar users
+				Compute similarity between users and other users
+				Data based off the ratings of neighbours(most similar)
+				
+				Measure similarity average method
+					Compute average values based on other score
+					Only accurate if sample size is large
+					
+				Measure similarity squared Euclidean
+					Ignore all missing values
+					Calculate squared Euclidean distance between vectors from 
+					pairs
+					
+				Correalation similarity
+				Cosine similarity between vector angles
+				
+				Method is slow as there are many users
+					Need to select users to compare
+					Need to pick the most similar users
+					
+			Item based methods
+				Identify similar items
+			Model (matrix) Models
+				Solve an optimisation problem and identify latent factors
+				
+			
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

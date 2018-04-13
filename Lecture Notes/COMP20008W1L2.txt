@@ -1,0 +1,61 @@
+Regular Expression
+	Used for pattern searches
+	
+	'.' matches any character in the text
+			'...' would be any 3 consecutive characters in the text	
+			
+	'^' matches the start of the string
+	
+	'$' matches the end of the string
+	
+	'*' zero or more repetitions
+			highlights the repetitions of the character before the '*'
+			includes the first appearance of it 
+	
+	'+' one or more repetitions 
+			same as '*' except it excludes the zero repetition
+	
+	'|' or operator 
+		searches for z(x|y) z plus x or y
+	
+	'[a-z]' searches from ascii character to another ascii character
+			different ranges do not need to have spaces between them
+				eg. regular inputs '[a-zA-Z0-9]'
+				anything else in the range bracket to be included anywhere
+					eg. [a-z._-#]
+			
+	
+	
+HTML
+	purely for presentation
+	syntax is more about formatting
+	syntax does not have much meaning
+	
+XML
+	much more meaning in syntax
+	able to express the meaning of each part using unique tags
+	case sensitive
+	
+	Name spaces	
+		specifies what things mean under different context
+		
+		Uses URI
+			does not have to be a real link
+			is unique
+	
+	
+	
+	>Tags can be drawn into trees
+		root element specifies content
+		keep attribute at 1
+	eg.
+		<?xml version="1.0"?> 
+		
+		<balloon>
+			<colour>Yellow</colour>
+			<price>$99.99</price>
+				<price currency = "USD">
+				
+		</balloon>
+		
+		

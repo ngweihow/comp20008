@@ -1,0 +1,55 @@
+Classifying Methodologies Cont.
+
+	Best split
+		Calculate the entropy of the children using the formula
+		
+		Measuring the diversity of the nodes
+		
+		Split unity
+			Information Gain
+			Entropy started minus Entropy gained
+			
+			Weighted Average
+			
+			>Formula
+				Entropy(root) - Entropy(root|split)
+				
+			Purity of children
+			
+			>>>Information Gain value of 1 =  best split
+				Purest and no ambiguity
+		
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

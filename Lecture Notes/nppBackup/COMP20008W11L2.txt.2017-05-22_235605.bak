@@ -1,0 +1,14 @@
+Differential Privacy
+
+	different from k-anonymity and l-diversity
+	
+	Privatised Analysis on original data to produce results released to public
+	
+	
+	>>>Attack should not be able to tell if user is in or not in server
+	
+	R = private results releasing
+	
+	P(user in dataset) ~ P(user not in dataset) = R
+	
+	

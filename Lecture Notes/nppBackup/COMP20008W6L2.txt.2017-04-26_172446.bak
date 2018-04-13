@@ -1,0 +1,44 @@
+Classification Methodologies
+
+	classifying a new object inserted into the database using the database
+		determine values of property
+
+	Use an algorithm to look at the historical data (Training set)
+		Teach the algorithm
+		Create a Learn model using induction (function)
+		
+	Make a prediction for the particular value for the new object
+		Apply the model to the test data
+
+	
+	
+	Regression
+		Predicting a continuous value instead of catergory
+		
+		Predicting an integer instead of catergory
+		
+		
+	Decision Tree
+		Split data into variables into different nodes of tree (splitting attributes)
+		Paths are each catergory
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

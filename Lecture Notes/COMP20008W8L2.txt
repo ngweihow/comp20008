@@ -1,0 +1,75 @@
+Data Linkage
+	
+	Combining related/ equivalent records across data sources
+	Info related to same entity
+	
+	Finding links and trends in the datasets
+	Finding correlations or unconsistencies in entities
+	
+	eg. Use of health(hospital history), security(crime), business(address or people)
+		academic(research papers), retail(matching existing customers)
+		
+	eg. Search engines need to link the sites to the correct parallels of the same entity
+		Use more details apart from name, years, creator etc
+		
+		
+	Typical Piping
+		Prep
+			Standardising data for manipulation
+			Different scripts might not comply with ASCII system used for processing 
+			
+			Easier to match entities which are the same across different databases
+		
+		Blocking
+			Put pairs into different blocks and elimate need to look at every pairs
+			Put records into different blocks according to each attribute/ word in title/name
+			
+			Look at records in the same block to compare them
+			Avoid run time of m*n matches and change into ((m*n)/b)
+				where b is the number of blocks
+
+			Blocks made by
+				Year number, word in name
+				
+				Years, upper and lower bound for each block
+				lower/higher one years
+			
+			Best Case = No comparision, just realise after blocking values
+			Worst Case = mn, no blocking
+			Average Case = mn/b
+			
+			Larger b, efficiency over accuracy; higher chances to assign into wrong block
+			Smaller b, accuracy over efficiency; bigger blocks to go over
+
+		Scoring
+			Match pairs together
+			
+			Jaccard similarity formula
+				String processing
+				Unique words in both strings
+				
+				Throw common/noisy words away (A, The, of)
+				
+			Calculate overall score of similarity for all attributes using function
+			Can do weighted sum
+			Similarity/dissimilarities
+			Machine learning 
+			
+		Matching
+			graph matching techniques
+			other matching functions
+			
+		Linkage
+			Matching Records
+				Prediction and ground truth
+					TN False and Predicted to be False ~m
+					FP False and Predicted to be True <m
+					FN True and Predicted to be False <m
+					TP True and Predicted to be True ~mn-m
+
+			Accuracy = TP+ TN / total
+			Link data together
+			
+	>Data duplication detection
+		Work directly on the same dataset
+		Higher threshold

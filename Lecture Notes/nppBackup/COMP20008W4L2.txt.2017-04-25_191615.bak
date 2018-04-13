@@ -1,0 +1,87 @@
+Hierarchical Clustering
+
+	Transformation of Data
+	
+	VAT ordering
+	find the two furthest points
+	randomly pick one of them
+	keep looking for points which is colse to selected point
+	they are now a set
+	find set closest to the sets and merge
+	look at the next points nearest to the set
+	
+		Pseudo Code
+		
+	>VAT algorithm is not efficient for data with certain structures
+	Hierarchical Clustering
+		Different way of visualisation
+		See the different scale/hierarchy
+		Give datapoints without number of clusters
+		Give visualisations called dendograms
+		
+		Two main types
+			Agglomerative
+				Start with the points as individual clusters
+				Each step, merge the closest pair until k clusters 
+				until one single cluster
+				
+			Divisive
+				Start with one, all clustered
+				split cluster at each step until cluster just has one point (k clusters)
+				
+			>use similarity or distance matrix (proximity)
+			
+		
+		Proximity Matrix
+			The distance between the dots 
+			p1 and p1 == 1
+			
+			
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

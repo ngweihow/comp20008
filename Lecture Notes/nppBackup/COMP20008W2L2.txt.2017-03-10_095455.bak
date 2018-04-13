@@ -1,0 +1,76 @@
+Data Cleaning
+	Data Quality
+		Accuracy
+		Completeness
+		Consistency
+		Timelines
+		Believability
+		Interpretability
+		
+	
+	Terminology
+		Each column = feature/ attribute
+		Each row = object/ person/ subject matter
+		
+		
+		
+	Noisy Data
+		Text incorrectly split across cells
+		Truncated fields
+		Negative values on absolute value scales
+		
+		Causes
+			Imprecise instruments
+			Data entry issues
+			Data transmisson issues
+			
+			
+	Inconsistent Data
+		Different Data Format
+		Different data input (Different person)
+		
+		Outliers
+			Usually spot from the context
+			Make the detecting technique automated
+			
+	
+	Disguised Data
+		Data thats not filled in properly
+		Usually just filled in to satisfy the form
+		
+		
+	Missing/ Incomplete Data
+		Lacking Feature Values
+			eg, ""   null
+			
+		Some data missing at random
+			Flipping a coin/ RNG whether to answer a question or not
+		Some not at random
+			Prefer not to reveal positive/ negative response
+			
+			
+		Dealing with missing values
+			Might bias later results
+			Might break application for analysis not expecting it
+			
+			
+			
+			Delete all instances of missing values	
+				Called deletion
+				
+				Reduce sample size/ Increase bias in small data sets
+				
+			Manually correct
+				Ask other/peer/specialist to fill in missing data
+				They might be bias
+				Inefficient
+				
+			Imputation
+				Impute a value for the missing one
+				Using standard analysis to replace missing values
+				Might not be very accurate
+				Would still allow application to work
+				
+				Fill in values with average or gradient value
+					Just ignoring the missing data
+					

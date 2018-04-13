@@ -1,0 +1,15 @@
+
+
+	Block Chain
+		complex peer network
+		
+		famous for bitcoin currency
+		
+		each computer in the network has a copy of the ledger (distributed)
+			record all the events
+			
+		Block
+			Header
+			ID - obtained from hashing the header
+			Record of the ID of the parent
+			

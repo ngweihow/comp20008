@@ -1,0 +1,49 @@
+Similarity Measure/prediction 
+	Use raj formula
+	
+Clustering
+	Good clustering method
+		Cluster data points so distance between data points are minimised
+		Cluser data points so distance between each cluster is maximised
+		
+	Intra Data Distance
+		Distance between data points
+	Inter Data Distance
+		Distance between data clusters
+		
+	>Critical point of data clustering is distance measured
+	
+	
+	k-means
+		select k seed points as the initial cluster centre for each cluster
+		
+		assign each data point to each cluster with the nearest seed point
+		
+		compute new seed points as the centre of the clusters of the curent 
+		partioning
+			partition according to points and then get mean to produce new 
+			centroids
+			
+		repeat step 2-4 again
+		
+		
+		
+		if used on very well clustered data set, worse case might take longer if
+		k all end up together
+		
+		if used on very sparsely clustered data sets, would take longer on average
+		case
+		
+	
+	Dissimilarity Matrix
+		Computes the distances between different objects in data sets
+		
+		square differences and sqrt the sum of them together
+		
+		can be represeneted on heatmaps
+		can be represeneted on iris data
+		
+		
+		
+		Well defined clusters will produce very defined heatmaps/maps
+		

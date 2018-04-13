@@ -1,0 +1,108 @@
+Data Linkage and Privacy
+
+	Data matching only within a single organisation and using databases within organisation
+		Privacy usually not a concern
+		Usually organisation do not have malicious intent
+		
+		Users know about their information given
+		
+	Share and make use of multiple databases
+		Keep track of a person using multiple records
+		
+		etc. Hospital, Insurance, Police, Authorities 
+		
+		>Organisations cant share all their databases
+		
+		
+		Businesses when sharing information together
+			Only records that are similar with each another
+			
+			No sharing of confidential data
+		
+
+		Governments
+			Security
+			
+			Tracking suspicious individuals to different databases
+				Tax
+				Law enforcement
+				ADI
+				
+			
+	Without breaking privacy policies
+		Methods for computing similarity of recrods
+		Not revealing actual record values
+		
+		Hashing
+			Keep name/identity of person as a key
+			Information of the individual comes out from hashing but not their identity
+			
+			
+			Non invertible hash function (one way)
+				Extremely hard to construct
+				
+				Impossible to decode using current technology
+				
+				MD5 Hash Function
+				SHA-3-512 Hash Function
+				
+				>Length of the output does not change
+			
+			
+			Two organisation sharing data
+				Use names to match each other's in databases
+				Produce a common key
+				
+				Only use the values and data used only through the key
+				
+				
+				Disadvantages
+					Tiny difference in character will produce largely different hash code
+					
+					Organisation on one side can mount an attack
+						Generate all combinations of words 
+						Brute force
+						
+						Fake record in one organisation can, key into the database of another
+							Name guessing
+							
+					
+					>Cannot be guruanteed that there would be no privacy/ dictionary attack
+					
+					Involve a trusted 3rd party
+						3rd party only gets the hash code
+						No other records received
+						Do not know the hash functions
+						
+						Inform two other parties if there is a match
+						
+						Cannot guruantee that 3rd party is not malicious
+
+
+					Protection against dictionary attack
+						Use the name of the individual plus a SECRET KEY
+						
+						Salt
+							Each organisation would have a secrete word for names called the salt
+							
+							Not useful for two organisation, trust with said party
+							
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

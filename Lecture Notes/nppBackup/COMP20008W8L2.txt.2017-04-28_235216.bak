@@ -1,0 +1,69 @@
+Data Linkage
+	
+	Combining related/ equivalent records across data sources
+	Info related to same entity
+	
+	Finding links and trends in the datasets
+	Finding correlations or unconsistencies in entities
+	
+	eg. Use of health(hospital history), security(crime), business(address or people)
+		academic(research papers), retail(matching existing customers)
+		
+	eg. Search engines need to link the sites to the correct parallels of the same entity
+		Use more details apart from name, years, creator etc
+		
+		
+	Typical Piping
+		Prep
+			Standardising data for manipulation
+			Different scripts might not comply with ASCII system used for processing 
+			
+			Easier to match entities which are the same across different databases
+		
+		Blocking
+			Put pairs into different blocks and elimate need to look at every pairs
+			Put records into different blocks according to each attribute/ word in title/name
+			
+			Look at records in the same block to compare them
+			
+			Blocks made by
+				Year number, word in name
+				
+				Years, upper and lower bound for each block
+				lower/higher one years
+				
+	
+	
+		
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,88 @@
+Data at Scale
+
+	Big Data
+		
+		High Demands and High Cost of processing 
+		Very high benefits for information
+		Privacy Risks
+		
+		Big infrastructure (Distributed System)
+			Cluster Computer(90s)
+				Set of computers working together as a single system
+			Grid Computing (00s)
+				Independent processing of project on lots of device
+			Cloud Computing (10s)
+				Renting machine/platform to build
+				Have people maintain it
+				
+		Issues
+			Consistency & Availability
+				Make data always available
+					Split data into multiple machines
+					Need to synchronise across machines
+					
+				Consistency
+					Data needs to be updated parallel across multiple machines
+					Need a smart way of doing this
+				
+				Conditions
+					Each computer needs to view the data similarly 
+					All computers can read and write
+					System should still work if network problems (partition tolerance)
+					
+					>>>IMPOSSIBLE to achieve all three 
+						CAP theorem
+						
+					No partition tolerance
+						System needs time to sync across machines
+						If network is down, sync and availability would be delayed
+					
+					No consistency
+						No synchronisation but system can keep going
+						All available
+						Change made on multiple machines but might clash
+						
+					No availability
+						Failure in network
+						data is kept consistent 
+						delay changes until failure is solved
+						
+		Data replication and sharding
+			Replication
+				Copy data and store it in different systems
+			Sharding 
+				Divide data into blocks and spread across different systems
+
+			>Combination of both is used
+			
+			Increases availability of each shard of data across different machines
+			More resilient to failure
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

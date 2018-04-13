@@ -1,0 +1,83 @@
+Mutual Information
+
+	Correlation
+	Pearson correlation not suitable for quadratics and non linear relations
+	
+	Requires discrete data
+		continuous data need to be discretised 
+			Put in ranges/ catergories etc
+			
+			Equal width bins
+				Divide range with number of bins to find bin range (width)
+			Equal frequency bins
+				Number of values in the list divided by number of bins roughly
+				
+			
+	
+	Entropy 
+		used to assess the amount of uncertainty in an outcome
+			
+		Measure the predictability of randomly selected objects
+		
+		>Capture amount of "surprise" in random selection
+		
+		>>>Formunla
+		Given feature X, H(X) is its entropy
+		
+			Look at the proportion of items in the bins
+			
+			apply to each bin
+				probability of each bin/type
+				
+		measured in bits
+		
+		
+		
+			
+			
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

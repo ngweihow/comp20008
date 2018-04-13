@@ -1,0 +1,435 @@
+locality,region_id
+Alfredton,201011001
+Ballarat,201011002
+Ballarat  North,201011003
+Ballarat  South,201011004
+Buninyong,201011005
+Delacombe,201011006
+Smythes Creek,201011007
+Wendouree  Miners Rest,201011008
+Bacchus Marsh Region,201021009
+Creswick  Clunes,201021010
+Daylesford,201021011
+Gordon ,201021012
+Avoca,201031013
+Beaufort,201031014
+Golden Plains  North,201031015
+Maryborough ,201031016
+Maryborough Region,201031017
+Bendigo,202011018
+California Gully  Eaglehawk,202011019
+East Bendigo  Kennington,202011020
+Flora Hill  Spring Gully,202011021
+Kangaroo Flat  Golden Square,202011022
+Maiden Gully,202011023
+Strathfieldsaye,202011024
+White Hills  Ascot,202011025
+Bendigo Region  South,202021026
+Castlemaine,202021027
+Castlemaine Region,202021028
+Heathcote,202021029
+Kyneton,202021030
+Woodend,202021031
+Bendigo Region  North,202031032
+Loddon,202031033
+Bannockburn,203011034
+Golden Plains  South,203011035
+Winchelsea,203011036
+Belmont,203021037
+Corio  Norlane,203021038
+Geelong,203021039
+Geelong West  Hamlyn Heights,203021040
+Grovedale,203021041
+Highton,203021042
+Lara,203021043
+Leopold,203021044
+Newcomb  Moolap,203021045
+Newtown ,203021046
+North Geelong  Bell Park,203021047
+Clifton Springs,203031048
+Lorne  Anglesea,203031049
+Ocean Grove  Barwon Heads,203031050
+Portarlington,203031051
+Queenscliff,203031052
+Torquay,203031053
+Alexandra,204011054
+Euroa,204011055
+Kilmore  Broadford,204011056
+Mansfield ,204011057
+Nagambie,204011058
+Seymour,204011059
+Seymour Region,204011060
+Upper Yarra Valley,204011061
+Yea,204011062
+Benalla,204021063
+Benalla Region,204021064
+Rutherglen,204021065
+Wangaratta,204021066
+Wangaratta Region,204021067
+Beechworth,204031068
+Bright  Mount Beauty,204031069
+Chiltern  Indigo Valley,204031070
+Myrtleford,204031071
+Towong,204031072
+West Wodonga,204031073
+Wodonga,204031074
+Yackandandah,204031075
+Drouin,205011076
+Mount Baw Baw Region,205011077
+Trafalgar ,205011078
+Warragul,205011079
+Alps  East,205021080
+Bairnsdale,205021081
+Bruthen  Omeo,205021082
+Lake King,205021083
+Lakes Entrance,205021084
+Orbost,205021085
+Paynesville,205021086
+Foster,205031087
+French Island,205031088
+Korumburra,205031089
+Leongatha,205031090
+Phillip Island,205031091
+Wilsons Promontory,205031092
+Wonthaggi  Inverloch,205031093
+Churchill,205041094
+Moe  Newborough,205041095
+Morwell,205041096
+Traralgon,205041097
+Yallourn North  Glengarry,205041098
+Alps  West,205051099
+Longford  Loch Sport,205051100
+Maffra,205051101
+Rosedale,205051102
+Sale,205051103
+Yarram,205051104
+Brunswick,206011105
+Brunswick East,206011106
+Brunswick West,206011107
+Coburg,206011108
+Pascoe Vale South,206011109
+Alphington  Fairfield,206021110
+Northcote,206021111
+Thornbury,206021112
+Ascot Vale,206031113
+Essendon  Aberfeldie,206031114
+Flemington,206031115
+Moonee Ponds,206031116
+Carlton,206041117
+Docklands,206041118
+East Melbourne,206041119
+Flemington Racecourse,206041120
+Kensington,206041121
+Melbourne,206041122
+North Melbourne,206041123
+Parkville,206041124
+South Yarra  West,206041125
+Southbank,206041126
+West Melbourne,206041127
+Albert Park,206051128
+Elwood,206051129
+Port Melbourne,206051130
+Port Melbourne Industrial,206051131
+South Melbourne,206051132
+St Kilda,206051133
+St Kilda East,206051134
+Armadale,206061135
+Prahran  Windsor,206061136
+South Yarra  East,206061137
+Toorak,206061138
+Abbotsford,206071139
+Carlton North  Princes Hill,206071140
+Collingwood,206071141
+Fitzroy,206071142
+Fitzroy North,206071143
+Richmond ,206071144
+Yarra  North,206071145
+Ashburton ,207011146
+Balwyn,207011147
+Balwyn North,207011148
+Camberwell,207011149
+Glen Iris  East,207011150
+Hawthorn,207011151
+Hawthorn East,207011152
+Kew,207011153
+Kew East,207011154
+Surrey Hills (West)  Canterbury,207011155
+Bulleen,207021156
+Doncaster,207021157
+Doncaster East,207021158
+Templestowe,207021159
+Templestowe Lower,207021160
+Blackburn,207031161
+Blackburn South,207031162
+Box Hill,207031163
+Box Hill North,207031164
+Burwood,207031165
+Burwood East,207031166
+Surrey Hills (East)  Mont Albert,207031167
+Beaumaris,208011168
+Brighton ,208011169
+Brighton East,208011170
+Cheltenham  Highett (West),208011171
+Hampton,208011172
+Sandringham  Black Rock,208011173
+Bentleigh  McKinnon,208021174
+Bentleigh East,208021175
+Carnegie,208021176
+Caulfield  North,208021177
+Caulfield  South,208021178
+Elsternwick,208021179
+Hughesdale,208021180
+Murrumbeena,208021181
+Ormond  Glen Huntly,208021182
+Aspendale Gardens  Waterways,208031183
+Braeside,208031184
+Carrum  Patterson Lakes,208031185
+Chelsea  Bonbeach,208031186
+Chelsea Heights,208031187
+Cheltenham  Highett (East),208031188
+Edithvale  Aspendale,208031189
+Mentone,208031190
+Moorabbin  Heatherton,208031191
+Moorabbin Airport,208031192
+Mordialloc  Parkdale,208031193
+Malvern  Glen Iris,208041194
+Malvern East,208041195
+Bundoora  East,209011196
+Greensborough,209011197
+Heidelberg  Rosanna,209011198
+Heidelberg West,209011199
+Ivanhoe,209011200
+Ivanhoe East  Eaglemont,209011201
+Montmorency  Briar Hill,209011202
+Viewbank  Yallambie,209011203
+Watsonia,209011204
+Kingsbury,209021205
+Preston,209021206
+Reservoir  East,209021207
+Reservoir  West,209021208
+Eltham,209031209
+Hurstbridge,209031210
+Kinglake,209031211
+Panton Hill  St Andrews,209031212
+Plenty  Yarrambat,209031213
+Research  North Warrandyte,209031214
+Wattle Glen  Diamond Creek,209031215
+Bundoora  North,209041216
+Bundoora  West,209041217
+Epping,209041218
+Lalor,209041219
+Mill Park  North,209041220
+Mill Park  South,209041221
+South Morang,209041222
+Thomastown,209041223
+Wallan,209041224
+Whittlesea,209041225
+Airport West,210011226
+Essendon Airport,210011227
+Keilor,210011228
+Keilor East,210011229
+Niddrie  Essendon West,210011230
+Strathmore,210011231
+Gisborne,210021232
+Macedon,210021233
+Riddells Creek,210021234
+Romsey,210021235
+Coburg North,210031236
+Fawkner,210031237
+Glenroy  Hadfield,210031238
+Pascoe Vale,210031239
+Sunbury,210041240
+Sunbury  South,210041241
+Broadmeadows,210051242
+Campbellfield  Coolaroo,210051243
+Craigieburn  Mickleham,210051244
+Gladstone Park  Westmeadows,210051245
+Greenvale  Bulla,210051246
+Meadow Heights,210051247
+Melbourne Airport,210051248
+Roxburgh Park  Somerton,210051249
+Tullamarine,210051250
+Bayswater,211011251
+Boronia  The Basin,211011252
+Ferntree Gully,211011253
+Knoxfield  Scoresby,211011254
+Lysterfield,211011255
+Rowville  Central,211011256
+Rowville  North,211011257
+Rowville  South,211011258
+Wantirna,211011259
+Wantirna South,211011260
+Donvale  Park Orchards,211021261
+Warrandyte  Wonga Park,211021262
+Bayswater North,211031263
+Croydon,211031264
+Croydon Hills  Warranwood,211031265
+Ringwood,211031266
+Ringwood East,211031267
+Ringwood North,211031268
+Forest Hill,211041269
+Mitcham ,211041270
+Nunawading,211041271
+Vermont,211041272
+Vermont South,211041273
+Belgrave  Selby,211051274
+Chirnside Park,211051275
+Healesville  Yarra Glen,211051276
+Kilsyth,211051277
+Lilydale  Coldstream,211051278
+Monbulk  Silvan,211051279
+Montrose,211051280
+Mooroolbark,211051281
+Mount Dandenong  Olinda,211051282
+Mount Evelyn,211051283
+Upwey  Tecoma,211051284
+Wandin  Seville,211051285
+Yarra Valley,211051286
+Beaconsfield  Officer,212011287
+Bunyip  Garfield,212011288
+Emerald  Cockatoo,212011289
+Koo Wee Rup,212011290
+Pakenham  North,212011291
+Pakenham  South,212011292
+Berwick  North,212021293
+Berwick  South,212021294
+Doveton,212021295
+Endeavour Hills,212021296
+Hallam,212021297
+Narre Warren,212021298
+Narre Warren North,212021299
+Cranbourne,212031300
+Cranbourne East,212031301
+Cranbourne North,212031302
+Cranbourne South,212031303
+Cranbourne West,212031304
+Hampton Park  Lynbrook,212031305
+Lynbrook  Lyndhurst,212031306
+Narre Warren South,212031307
+Pearcedale  Tooradin,212031308
+Clarinda  Oakleigh South,212041309
+Clayton South,212041310
+Dandenong,212041311
+Dandenong North,212041312
+Dingley Village,212041313
+Keysborough,212041314
+Noble Park,212041315
+Noble Park North,212041316
+Springvale,212041317
+Springvale South,212041318
+Ashwood  Chadstone,212051319
+Clayton,212051320
+Glen Waverley  East,212051321
+Glen Waverley  West,212051322
+Mount Waverley  North,212051323
+Mount Waverley  South,212051324
+Mulgrave,212051325
+Oakleigh  Huntingdale,212051326
+Wheelers Hill,212051327
+Ardeer  Albion,213011328
+Cairnlea,213011329
+Deer Park  Derrimut,213011330
+Delahey,213011331
+Keilor Downs,213011332
+Kings Park ,213011333
+St Albans  North,213011334
+St Albans  South,213011335
+Sunshine,213011336
+Sunshine North,213011337
+Sunshine West,213011338
+Sydenham,213011339
+Taylors Lakes,213011340
+Altona,213021341
+Altona Meadows,213021342
+Altona North,213021343
+Newport,213021344
+Seabrook,213021345
+Williamstown,213021346
+Braybrook,213031347
+Footscray,213031348
+Maribyrnong,213031349
+Seddon  Kingsville,213031350
+West Footscray  Tottenham,213031351
+Yarraville,213031352
+Bacchus Marsh,213041353
+Caroline Springs,213041354
+Hillside,213041355
+Melton,213041356
+Melton South,213041357
+Melton West,213041358
+Rockbank  Mount Cottrell,213041359
+Taylors Hill,213041360
+Hoppers Crossing  North,213051361
+Hoppers Crossing  South,213051362
+Laverton,213051363
+Point Cook,213051364
+Tarneit,213051365
+Truganina,213051366
+Werribee,213051367
+Werribee  South,213051368
+Wyndham Vale,213051369
+Carrum Downs,214011370
+Frankston,214011371
+Frankston North,214011372
+Frankston South,214011373
+Langwarrin,214011374
+Seaford ,214011375
+Skye  Sandhurst,214011376
+Dromana,214021377
+Flinders,214021378
+Hastings  Somers,214021379
+Mornington,214021380
+Mount Eliza,214021381
+Mount Martha,214021382
+Point Nepean,214021383
+Rosebud  McCrae,214021384
+Somerville,214021385
+Ararat,215011386
+Ararat Region,215011387
+Horsham,215011388
+Horsham Region,215011389
+Nhill Region,215011390
+St Arnaud,215011391
+Stawell,215011392
+West Wimmera,215011393
+Yarriambiack,215011394
+Irymple,215021395
+Merbein,215021396
+Mildura,215021397
+Mildura Region,215021398
+Red Cliffs,215021399
+Buloke,215031400
+Gannawarra,215031401
+Kerang,215031402
+Robinvale,215031403
+Swan Hill,215031404
+Swan Hill Region,215031405
+Echuca,216011406
+Kyabram,216011407
+Lockington  Gunbower,216011408
+Rochester,216011409
+Rushworth,216011410
+Cobram,216021411
+Moira,216021412
+Numurkah,216021413
+Yarrawonga,216021414
+Mooroopna,216031415
+Shepparton  North,216031416
+Shepparton  South,216031417
+Shepparton Region  East,216031418
+Shepparton Region  West,216031419
+Glenelg ,217011420
+Hamilton ,217011421
+Portland,217011422
+Southern Grampians,217011423
+Camperdown,217021424
+Colac,217021425
+Colac Region,217021426
+Corangamite  North,217021427
+Corangamite  South,217021428
+Moyne  East,217021429
+Moyne  West,217021430
+Otway,217021431
+Warrnambool  North,217021432
+Warrnambool  South,217021433
+Migratory  Offshore  Shipping ,297979799

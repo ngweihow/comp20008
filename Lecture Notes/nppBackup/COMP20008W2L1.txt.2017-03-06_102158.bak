@@ -1,0 +1,32 @@
+XML 
+customised tags
+
+attributes = unique element
+	eg
+	<book price = "55" currency = "USD">  </book>
+	
+Name Spaces
+	xmlns = xml name space
+	elements would be set to the default namespace unless specified
+	
+	***Defined all at the same time
+	
+	eg
+	<xmlns:a = urla>
+		NOT DEFAULT NAMESPACE	
+	<a:anything> </a:anything>
+
+	name space can be overwritten with other predefined parent ones
+	name space would not be overwritten by siblings' namespaces prefix
+	
+	
+XML Schema
+
+
+
+
+JSON
+
+	very lightweight
+	derived from JavaScript
+	

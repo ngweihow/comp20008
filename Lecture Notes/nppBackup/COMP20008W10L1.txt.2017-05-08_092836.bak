@@ -1,0 +1,41 @@
+Data linkage and Privacy
+
+	Approximate Similarity
+	2-gram string comparision
+		break string down to two characters each and compare 
+		list of two characters(sub-strings)
+			Does not matter the order of the substring
+		>use formula
+		
+		can be q-grams 
+			any number appropriate for the data set
+			
+			lower = more inefficient
+			
+			higher =  places more emphasis on the order of letters
+			
+			
+
+	Bloom Filters
+		Use hash functions
+		Hash string values and place in array
+		1 or 0
+		
+		
+		Inserting 2-grams of substring into table
+			k would be 2
+			hash function returns less than hash table length
+			
+			
+		
+
+
+
+
+
+
+
+
+
+
+

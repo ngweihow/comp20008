@@ -1,0 +1,55 @@
+Differential Privacy
+
+	different from k-anonymity and l-diversity
+	
+	Privatised Analysis on original data to produce results released to public
+	
+	Promise of Differential Privacy
+		>>>Attack should not be able to tell if user is in or not in server
+		
+		R = private results releasing
+		
+		P(user in dataset) ~ P(user not in dataset) = R
+	
+		Attacker can still learn category/range of attribute about user
+			Make guess of probability using database of other users
+			
+		>>>Only prevent attackers from knowing if specific individual is in dataset
+		
+	Global sensitivity
+		maximum difference in queries (functions) that adding/removing individuals can cause
+		
+		Range of maximum effect on data
+		Consider worst case scenario
+		
+		
+	Privacy Budget
+		e = privacy budget that should be in used
+		
+		closeness of the two probabilities
+			difference of the effect of user being in or not the dataset
+			
+		e of 0 imply maximum privacy and no utility
+		
+		
+		
+	Adding Noise to data
+		span the sensitivity gap
+		
+		random value drawn from laplacian distribution
+		mean of 0
+		close as possible to the true answer
+		
+		affected by global sensitivity
+			more noise for higher global sensitivity
+			
+		>Cover the fact if individual is in dataset or not
+		
+		Noise helps to conceal the gap between the two probabilities
+		
+		actual answer is preserved for the general neighbourhood of data
+			parallel worlds of the data created with noise 
+			noise is less likely but still can confuse attackers
+			
+			
+		

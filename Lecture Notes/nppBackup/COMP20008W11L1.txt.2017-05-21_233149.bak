@@ -1,0 +1,67 @@
+Public Data Release
+
+	Release data for public benefits and research purposes
+	Give company advantage
+	
+	
+	>Public thinks computer scientists have easy access into private information
+	
+	Combination of data for identifying
+		eg. zip code, birthday and sex
+		
+		linking data to breach privacy 
+			use two similar platforms
+	
+	>put noise into dataset to further protect privacy of users
+	
+	
+	Perserving the anonymity of data before public release
+		k-anonymity
+		l-diversity
+		
+		Explicity identifier
+			Unique identifyer
+			Names etc
+			Use hash functions to encrypt
+			
+		Quasi
+			Non-sensitive data that can be used to identify entity
+			usually used in combination
+			
+		Sensitive attribute
+			information meant to be kept private
+			
+			
+	k-anonymity
+		make sure every set of data released protective of privacy but useful
+		
+		determine quasi
+		
+		make any user indisguisable from k-1 number of other users in dataset
+			pick a fair value of k-1
+			
+			Choosing k
+				Larger k
+					More privacy
+					More distortion to data
+					Loosing information
+					
+				
+			>Making quasi less specific
+				use quasi catergory for root of tree
+				
+				hiding values/digits of code
+					hide from right
+				
+				>>>try to loose as little detail for data as possible
+				
+			Suppression
+				Limit amount of outliers
+					retain current usability of data
+				
+				outlier would cause each quasi category to move up
+					generalise to protect privacy
+				
+	Background attack
+		use background information to locate user
+		
